@@ -32,7 +32,7 @@ const App = () => {
       <Navbar />
       <Banner inProgress={inProgress.length} resolved={resolved.length} />
 
-      {/* Main Section */}
+    
       <MainSection
         ticketList={ticketList}
         inProgress={inProgress}

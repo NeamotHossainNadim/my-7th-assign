@@ -1,5 +1,5 @@
 import React from "react";
-import { Plus } from "lucide-react"; // optional icon library (npm install lucide-react)
+import { Plus } from "lucide-react"; 
 
 const Navbar = () =>{
   const menuItems = ["Home", "FAQ", "Changelog", "Blog", "Download", "Contact"];
@@ -7,12 +7,12 @@ const Navbar = () =>{
   return (
     <header className="w-full border-b border-gray-200 bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        {/* Logo / Name */}
+        
         <div className="text-lg font-semibold text-gray-900">
           CS <span className="font-normal">— Ticket System</span>
         </div>
 
-        {/* Menu */}
+        
         <ul className="hidden gap-6 text-sm text-gray-700 md:flex">
           {menuItems.map((item) => (
             <li
