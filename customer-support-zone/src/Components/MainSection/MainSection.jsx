@@ -5,7 +5,7 @@ import TaskStatus from "../Ticket/TaskStatus";
 const MainSection = ({ ticketList, inProgress, resolved, onSelect, onComplete }) => {
   return (
     <main className="flex flex-col md:flex-row gap-6 p-6 flex-1">
-      {/* Left: Customer Tickets */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-1">
         {ticketList.map((ticket) => (
           <TicketCard
@@ -16,7 +16,7 @@ const MainSection = ({ ticketList, inProgress, resolved, onSelect, onComplete })
         ))}
       </div>
 
-      {/* Right: Task Status */}
+      
       <div className="w-full md:w-1/3">
         <TaskStatus
           tasks={inProgress}
