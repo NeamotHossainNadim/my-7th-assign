@@ -1,4 +1,4 @@
-// TicketCard.jsx
+
 import React from "react";
 import { Calendar } from "lucide-react";
 
@@ -14,7 +14,7 @@ const TicketCard = ({ ticket, onSelect }) => {
       <div className="flex flex-wrap items-center gap-2 text-xs">
         <span className="font-medium text-gray-700">#{ticket.id}</span>
 
-        {/* Priority Badge */}
+        
         <span
           className={`px-2 py-0.5 rounded-full font-semibold
           ${
@@ -35,7 +35,6 @@ const TicketCard = ({ ticket, onSelect }) => {
           {ticket.createdAt}
         </span>
 
-        {/* Status Badge */}
         <span
           className={`px-3 py-0.5 rounded-full font-medium
           ${

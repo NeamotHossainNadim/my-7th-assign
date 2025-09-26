@@ -5,7 +5,7 @@ const TaskStatus = ({ tasks = [], resolved = [], onComplete }) => {
     <div className="bg-white shadow-md rounded-lg p-4">
       <h2 className="text-lg font-semibold mb-4">Task Status</h2>
 
-      {/* In-Progress Tickets */}
+      
       <div>
         <h3 className="font-medium mb-2">In Progress</h3>
         {tasks.length > 0 ? (
@@ -28,7 +28,7 @@ const TaskStatus = ({ tasks = [], resolved = [], onComplete }) => {
         )}
       </div>
 
-      {/* Resolved Tickets */}
+      
       <div className="mt-4">
         <h3 className="font-medium mb-2">Resolved</h3>
         {resolved.length > 0 ? (
